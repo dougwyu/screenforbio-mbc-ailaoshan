@@ -53,8 +53,8 @@ w_protaxout_swarm_12S_all$protaxmod <- "weighted"
 
 ```{r combine unweighted swarm_12S}
 pathtoprotaxout <- "~/src/screenforbio-mbc-ailaoshan"
-pathtoprotax2 <- "protaxout_swarm_12S"
-pathtoprotax_file <- "all_12S_20180317_otu_table_swarm_lulu."
+pathtoprotax2 <- "protaxout_Lyngaard_20190722_12S"
+pathtoprotax_file <- "OTU_fasta_riaz.fasta."
 # setwd(pathtoprotaxout)
 protaxout_swarm_12S_class <- read_tsv(file.path(pathtoprotaxout, pathtoprotax2, paste0(pathtoprotax_file, "class_probs")), col_names = c("queryID", "taxID", "log_prob", "level", "class")) %>% 
     mutate(prob_class = exp(log_prob)) %>% 
@@ -117,8 +117,8 @@ w_protaxout_swarm_16S_all$protaxmod <- "weighted"
 
 ```{r combine unweighted swarm_16S}
 pathtoprotaxout <- "~/src/screenforbio-mbc-ailaoshan"
-pathtoprotax2 <- "protaxout_swarm_20190624_16S"
-pathtoprotax_file <- "16S_otu_table_swarm_lulu_20190624.fas."
+pathtoprotax2 <- "protaxout_Lyngaard_20190722_16S"
+pathtoprotax_file <- "16Smam_OTUs."
 
 protaxout_swarm_16S_class <- read_tsv(file.path(pathtoprotaxout, pathtoprotax2, paste0(pathtoprotax_file, "class_probs")), col_names = c("queryID", "taxID", "log_prob", "level", "class")) %>% 
     mutate(prob_class = exp(log_prob)) %>% 

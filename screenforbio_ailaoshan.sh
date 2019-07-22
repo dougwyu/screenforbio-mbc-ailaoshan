@@ -416,10 +416,18 @@ bash weighted_protax_classify_otus.sh ${OTUS16S_SWARM} 16S w_protaxmodels_ailaos
 cd ~/src/screenforbio-mbc-ailaoshan/
 . ~/.linuxify; which sed # should show /usr/local/opt/gnu-sed/libexec/gnubin/sed
 
+# Christina Lyngaard OTUs
+OTUS12S="/Users/Negorashi2011/Dropbox/Working_docs/Lyngaard_Metabarcoding_vertebrates/OTU_fasta_riaz.fasta"
+OTUs16S="/Users/Negorashi2011/Dropbox/Working_docs/Lyngaard_Metabarcoding_vertebrates/16Smam_OTUs.fa"
+echo ${OTUS12S}; head ${OTUS12S}
+echo ${OTUS16S}; #head ${OTUS16S}
+bash protax_classify_otus.sh ${OTUS12S} 12S protaxmodels ~/src/screenforbio-mbc-ailaoshan protaxout_Lyngaard_20190722
+bash protax_classify_otus.sh ${OTUS16S} 16S protaxmodels ~/src/screenforbio-mbc-ailaoshan protaxout_Lyngaard_20190722
+
 # Cai_443_Ponds dataset, 12S, unweighted
 OTUS12S_SWARM="/Users/Negorashi2011/Dropbox/Working_docs/Cai_443_Ponds/OTUs/table_500ponds2_12sv5_97.fas.blast.fas"
 echo ${OTUS12S_SWARM}; head ${OTUS12S_SWARM}
-bash protax_classify_otus.sh ${OTUS12S_SWARM} 12S protaxmodels ~/src/screenforbio-mbc-ailaoshan w_protaxout_swarm_20190704
+bash protax_classify_otus.sh ${OTUS12S_SWARM} 12S protaxmodels ~/src/screenforbio-mbc-ailaoshan protaxout_swarm_20190704
 
 # Ailaoshan leeches dataset, 16S, unweighted, 20190624 OTUs
 OTUS16S_SWARM="/Users/Negorashi2011/Dropbox/Working_docs/Ji_Ailaoshan_leeches/2018/16S_otu_table_swarm_lulu_20190624.fas"
