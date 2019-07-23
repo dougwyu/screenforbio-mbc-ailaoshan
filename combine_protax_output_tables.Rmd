@@ -155,9 +155,9 @@ protaxout_swarm_12S_weighted_unweighted <- bind_rows(protaxout_swarm_12S_all, w_
 
 ```{r export tables}
 pathtoprotaxout <- "~/src/screenforbio-mbc-ailaoshan"
-pathtoprotax2 <- "w_protaxout_swarm"
-write_tsv(w_protaxout_swarm_12S_all, file.path(pathtoprotaxout, paste0(pathtoprotax2, "_12S_20190624"),"w_protaxout_swarm_12S_all_20190624.tsv"))
-write_tsv(w_protaxout_swarm_16S_all, file.path(pathtoprotaxout, paste0(pathtoprotax2 , "_16S_20190624"),"w_protaxout_swarm_16S_all_20190624.tsv"))
+pathtoprotax2 <- "protaxout_Lyngaard_20190722"
+write_tsv(protaxout_swarm_12S_all, file.path(pathtoprotaxout, paste0(pathtoprotax2, "_12S"),"protaxout_swarm_12S_all_20190722.tsv"))
+write_tsv(protaxout_swarm_16S_all, file.path(pathtoprotaxout, paste0(pathtoprotax2 , "_16S"),"protaxout_swarm_16S_all_20190622.tsv"))
 ```
 
 
