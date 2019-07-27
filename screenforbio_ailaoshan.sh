@@ -443,3 +443,97 @@ bash protax_classify_otus.sh ${OTUS16S_SWARM} 16S protaxmodels ~/src/screenforbi
      # outdir is the name to give the output directory (inside current)
 
      # 5.1 Use combine_protax_output_tables.Rmd to combine the protax output files. The script is written to process w_protaxout_swarm_12S, w_protaxout_swarm_16S, w_protaxout_usearch_12S
+
+
+# 7. Training weighted models for Christina Lyngaard and Martin Nielsen
+# weighted by Brazil species list:  splist (birds, herps, mammals)
+cd ~/src/screenforbio-mbc-ailaoshan/
+. ~/.linuxify; which sed # should show /usr/local/opt/gnu-sed/libexec/gnubin/sed
+# copy the species list from the archive directory to the screenforbio directory
+     # or substitute another Tetrapoda-limited species list. Check that your species are in the Tetrapoda.final_protax_taxonomy.txt file
+grep -c -wf archived_files/splist_Brazil_Lyngaard_nocomma.csv Tetrapoda.final_protax_taxonomy.txt
+wc -l archived_files/splist_Brazil_Lyngaard_nocomma.csv
+grep -c -wf archived_files/splist_Tanzania_Nielsen_nocomma.txt Tetrapoda.final_protax_taxonomy.txt
+wc -l archived_files/splist_Tanzania_Nielsen_nocomma.txt
+
+# weighted Brazil model
+cd ~/src/screenforbio-mbc-ailaoshan/
+cp ~/src/screenforbio-mbc-ailaoshan/archived_files/splist_Brazil_Lyngaard.csv ./splist.csv
+bash ~/src/screenforbio-mbc-ailaoshan/train_weighted_protax.sh splist.csv Tetrapoda.final_protax_taxonomy.txt ~/src/screenforbio-mbc-ailaoshan/
+# choose weighted models
+     # 12S
+w_MOD1CHOSEN12S="w_mcmc1b"
+w_MOD2CHOSEN12S="w_mcmc2b"
+w_MOD3CHOSEN12S="w_mcmc3d"
+w_MOD4CHOSEN12S="w_mcmc4c"
+     # 16S
+w_MOD1CHOSEN16S="w_mcmc1a"
+w_MOD2CHOSEN16S="w_mcmc2b"
+w_MOD3CHOSEN16S="w_mcmc3d"
+w_MOD4CHOSEN16S="w_mcmc4c"
+mv ./w_model_12S/${w_MOD1CHOSEN12S} ./w_model_12S/w_mcmc1
+mv ./w_model_12S/${w_MOD2CHOSEN12S} ./w_model_12S/w_mcmc2
+mv ./w_model_12S/${w_MOD3CHOSEN12S} ./w_model_12S/w_mcmc3
+mv ./w_model_12S/${w_MOD4CHOSEN12S} ./w_model_12S/w_mcmc4
+mv ./w_model_16S/${w_MOD1CHOSEN16S} ./w_model_16S/w_mcmc1
+mv ./w_model_16S/${w_MOD2CHOSEN16S} ./w_model_16S/w_mcmc2
+mv ./w_model_16S/${w_MOD3CHOSEN16S} ./w_model_16S/w_mcmc3
+mv ./w_model_16S/${w_MOD4CHOSEN16S} ./w_model_16S/w_mcmc4
+
+# check weighted protax training, generate bias-accuracy plots
+bash check_protax_training.sh w_model_12S Tetrapoda 12S ~/src/screenforbio-mbc-ailaoshan/
+bash check_protax_training.sh w_model_16S Tetrapoda 16S ~/src/screenforbio-mbc-ailaoshan/
+
+# move models to special folder
+mkdir w_protaxmodels_Brazil/
+mv w_model_12S w_protaxmodels_Brazil/
+mv w_model_16S w_protaxmodels_Brazil/
+cp archived_files/splist_Brazil_Lyngaard.csv w_protaxmodels_Brazil/
+
+
+# weighted Tanzania model
+cd ~/src/screenforbio-mbc-ailaoshan/
+cp ~/src/screenforbio-mbc-ailaoshan/archived_files/splist_Tanzania_Nielsen.txt ./splist.csv
+bash ~/src/screenforbio-mbc-ailaoshan/train_weighted_protax.sh splist.csv Tetrapoda.final_protax_taxonomy.txt ~/src/screenforbio-mbc-ailaoshan/
+# choose weighted models
+     # 12S
+w_MOD1CHOSEN12S="w_mcmc1b"
+w_MOD2CHOSEN12S="w_mcmc2a"
+w_MOD3CHOSEN12S="w_mcmc3d"
+w_MOD4CHOSEN12S="w_mcmc4d"
+     # 16S
+w_MOD1CHOSEN16S="w_mcmc1d"
+w_MOD2CHOSEN16S="w_mcmc2c"
+w_MOD3CHOSEN16S="w_mcmc3a"
+w_MOD4CHOSEN16S="w_mcmc4b"
+mv ./w_model_12S/${w_MOD1CHOSEN12S} ./w_model_12S/w_mcmc1
+mv ./w_model_12S/${w_MOD2CHOSEN12S} ./w_model_12S/w_mcmc2
+mv ./w_model_12S/${w_MOD3CHOSEN12S} ./w_model_12S/w_mcmc3
+mv ./w_model_12S/${w_MOD4CHOSEN12S} ./w_model_12S/w_mcmc4
+mv ./w_model_16S/${w_MOD1CHOSEN16S} ./w_model_16S/w_mcmc1
+mv ./w_model_16S/${w_MOD2CHOSEN16S} ./w_model_16S/w_mcmc2
+mv ./w_model_16S/${w_MOD3CHOSEN16S} ./w_model_16S/w_mcmc3
+mv ./w_model_16S/${w_MOD4CHOSEN16S} ./w_model_16S/w_mcmc4
+
+# check weighted protax training, generate bias-accuracy plots
+bash check_protax_training.sh w_model_12S Tetrapoda 12S ~/src/screenforbio-mbc-ailaoshan/
+bash check_protax_training.sh w_model_16S Tetrapoda 16S ~/src/screenforbio-mbc-ailaoshan/
+
+# move models to special folder
+mkdir w_protaxmodels_Tanzania/
+mv w_model_12S w_protaxmodels_Tanzania/
+mv w_model_16S w_protaxmodels_Tanzania/
+cp archived_files/splist_Tanzania_Nielsen.txt w_protaxmodels_Tanzania/
+
+# Classify OTUs:  Brazil and Tanzania, 12S and 16S, weighted
+cd ~/src/screenforbio-mbc-ailaoshan/
+OTUS12S="/Users/Negorashi2011/Dropbox/Working_docs/Lyngaard_Metabarcoding_vertebrates/OTU_fasta_riaz.fa"
+OTUS16S="/Users/Negorashi2011/Dropbox/Working_docs/Lyngaard_Metabarcoding_vertebrates/16Smam_OTUs.fa"
+echo ${OTUS12S}; head ${OTUS12S}
+echo ${OTUS16S}; head ${OTUS16S}
+bash weighted_protax_classify_otus.sh ${OTUS12S} 12S w_protaxmodels_Brazil ~/src/screenforbio-mbc-ailaoshan/ w_protaxout_Brazil_12S_20190727
+bash weighted_protax_classify_otus.sh ${OTUS16S} 16S w_protaxmodels_Brazil ~/src/screenforbio-mbc-ailaoshan/ w_protaxout_Brazil_16S_20190727
+bash weighted_protax_classify_otus.sh ${OTUS12S} 12S w_protaxmodels_Tanzania ~/src/screenforbio-mbc-ailaoshan/ w_protaxout_Tanzania_12S_20190727
+bash weighted_protax_classify_otus.sh ${OTUS16S} 16S w_protaxmodels_Tanzania ~/src/screenforbio-mbc-ailaoshan/ w_protaxout_Tanzania_16S_20190727
+
+# 5.1 Use combine_protax_output_tables.Rmd to combine the protax output files. The script is written to process w_protaxout_swarm_12S, w_protaxout_swarm_16S, w_protaxout_usearch_12S
