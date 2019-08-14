@@ -1,0 +1,85 @@
+OTU1	1116	-0.00831218	3	Anura,Dicroglossidae,Nanorana
+OTU10	331	-0.253757	3	Anura,Bufonidae,Bufo
+OTU100	3088	-0.0545636	3	Anura,Ranidae,Amolops
+OTU101	6953	-2.32418	3	Passeriformes,Sylviidae,Chrysomma
+OTU102	10431	-0.0771475	3	Rodentia,Cricetidae,Eothenomys
+OTU109	8427	-0.108452	3	Carnivora,Mustelidae,Mustela
+OTU11	3310	-0.0338401	3	Anura,Ranidae,Rana
+OTU110	8349	-1.02028	3	Carnivora,Felidae,Prionailurus
+OTU12	1116	-0.00838768	3	Anura,Dicroglossidae,Nanorana
+OTU121	7255	-1.93595	3	Passeriformes,Zosteropidae,Yuhina
+OTU129	11056	-0.241666	3	Rodentia,Muridae,Rattus
+OTU13	7255	-1.67682	3	Passeriformes,Zosteropidae,Yuhina
+OTU14	1116	-0.0225323	3	Anura,Dicroglossidae,Nanorana
+OTU15	3493	-0.0408001	3	Anura,Rhacophoridae,Rhacophorus
+OTU16	5346	-1.24942	3	Galliformes,Phasianidae,Arborophila
+OTU162	8006	-0.576153	3	Artiodactyla,Bovidae,Capricornis
+OTU17	7998	-0.507039	3	Artiodactyla,Bovidae,Capra
+OTU18	4203	-0.0157388	3	Caudata,Salamandridae,Tylototriton
+OTU19	14241,unk	-2.3619	3	Squamata,Scincidae,unk
+OTU2	177	-0.037641	3	Anura,Bombinatoridae,Bombina
+OTU20	7109	-0.468199	3	Passeriformes,Turdidae,Turdus
+OTU21	6713	-1.44512	3	Passeriformes,Phylloscopidae,Phylloscopus
+OTU22	8242	-0.00968926	3	Artiodactyla,Suidae,Sus
+OTU23	3249	-0.0238104	3	Anura,Ranidae,Odorrana
+OTU24	6527	-0.628079	3	Passeriformes,Muscicapidae,Monticola
+OTU25	8093	-0.591639	3	Artiodactyla,Bovidae,Ovis
+OTU26	5367	-0.488432	3	Galliformes,Phasianidae,Chrysolophus
+OTU27	2415,unk	-0.29669	3	Anura,Megophryidae,unk
+OTU28	5484	-0.262685	3	Galliformes,Phasianidae,Tragopan
+OTU29	9749	-0.0295461	3	Erinaceomorpha,Erinaceidae,Neotetracus
+OTU3	2445	-0.0225685	3	Anura,Megophryidae,Oreolalax
+OTU30			
+OTU31	6512	-0.306128	3	Passeriformes,Muscicapidae,Cyanoptila
+OTU32			
+OTU33	6527	-0.152091	3	Passeriformes,Muscicapidae,Monticola
+OTU34	5465	-0.24445	3	Galliformes,Phasianidae,Syrmaticus
+OTU35	11150,unk	-1.42209	3	Rodentia,Sciuridae,unk
+OTU36	11056	-0.345634	3	Rodentia,Muridae,Rattus
+OTU37	10832	-0.481896	3	Rodentia,Muridae,Apodemus
+OTU38	8521	-0.00995555	3	Carnivora,Ursidae,Ursus
+OTU39	11172	-0.223882	3	Rodentia,Sciuridae,Dremomys
+OTU4	177	-0.0350826	3	Anura,Bombinatoridae,Bombina
+OTU40	5339,unk	-1.85223	3	Galliformes,Phasianidae,unk
+OTU41	10815	-0.204448	3	Rodentia,Hystricidae,Atherurus
+OTU42	2415,unk	-0.31309	3	Anura,Megophryidae,unk
+OTU43	11161	-0.12705	3	Rodentia,Sciuridae,Callosciurus
+OTU44	11172	-0.0956559	3	Rodentia,Sciuridae,Dremomys
+OTU45	11172	-0.0280033	3	Rodentia,Sciuridae,Dremomys
+OTU46	7109	-0.37252	3	Passeriformes,Turdidae,Turdus
+OTU47	8290	-0.197768	3	Carnivora,Canidae,Nyctereutes
+OTU48	6518	-0.849291	3	Passeriformes,Muscicapidae,Ficedula
+OTU49	5367	-0.650761	3	Galliformes,Phasianidae,Chrysolophus
+OTU5	10196	-0.690114	3	Primates,Hominidae,Homo
+OTU50	2420	-0.0165966	3	Anura,Megophryidae,Leptobrachium
+OTU51	4791	-0.988593	3	Charadriiformes,Charadriidae,Vanellus
+OTU52	6527	-0.860784	3	Passeriformes,Muscicapidae,Monticola
+OTU54	8183	-0.104145	3	Artiodactyla,Cervidae,Muntiacus
+OTU55	4123	-0.0264095	3	Caudata,Salamandridae,Cynops
+OTU57	6518	-0.980075	3	Passeriformes,Muscicapidae,Ficedula
+OTU58			
+OTU6	2415,unk	-0.374952	3	Anura,Megophryidae,unk
+OTU61	11400	-0.153033	3	Soricomorpha,Soricidae,Anourosorex
+OTU62	10999	-0.450994	3	Rodentia,Muridae,Niviventer
+OTU63	8425	-0.322625	3	Carnivora,Mustelidae,Melogale
+OTU65	10818	-0.213255	3	Rodentia,Hystricidae,Hystrix
+OTU66			
+OTU67			
+OTU7	5427	-0.570812	3	Galliformes,Phasianidae,Lophura
+OTU72			
+OTU73	2415,unk	-0.192817	3	Anura,Megophryidae,unk
+OTU74			
+OTU75	11056	-0.76332	3	Rodentia,Muridae,Rattus
+OTU76	10926	-0.60637	3	Rodentia,Muridae,Leopoldamys
+OTU77	8315	-0.041316	3	Carnivora,Felidae,Catopuma
+OTU8	7986	-0.0518062	3	Artiodactyla,Bovidae,Bos
+OTU80	6518	-0.710303	3	Passeriformes,Muscicapidae,Ficedula
+OTU81			
+OTU83	6671	-0.589853	3	Passeriformes,Pellorneidae,Alcippe
+OTU84	2531	-0.0598106	3	Anura,Microhylidae,Calluella
+OTU89	10999	-0.258301	3	Rodentia,Muridae,Niviventer
+OTU9	2415,unk	-0.385543	3	Anura,Megophryidae,unk
+OTU92	11056	-0.390775	3	Rodentia,Muridae,Rattus
+OTU93	8349	-0.137946	3	Carnivora,Felidae,Prionailurus
+OTU94			
+OTU96	11340	-0.0093279	3	Rodentia,Spalacidae,Rhizomys

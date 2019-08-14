@@ -1,0 +1,84 @@
+OTU1 10198 -0.153096 4 Primates,Hominidae,Homo,sapiens 1.000 Homo_sapiens_KF161065
+OTU10 8248 -0.0547155 4 Artiodactyla,Suidae,Sus,scrofa 1.000 Sus_scrofa_MG250564
+OTU101     0.560 Hylomyscus_pamfi_JQ843755
+OTU102 6310 -0.335794 4 Passeriformes,Leiothrichidae,Trochalopteron,erythrocephalum 1.000 Trochalopteron_erythrocephalum_AF484353
+OTU108 6515 -0.940446 4 Passeriformes,Muscicapidae,Cyornis,banyumas 0.920 Cyornis_banyumas_AF151425
+OTU109     0.837 Xenophrys_lateralis_AY236800
+OTU11 10060 -0.578853 4 Primates,Cercopithecidae,Macaca,arctoides 0.957 Macaca_arctoides_KJ567055
+OTU118     0.857 Xenophrys_lateralis_AY236800
+OTU12 1134 -0.238564 4 Anura,Dicroglossidae,Nanorana,yunnanensis 1.000 Nanorana_yunnanensis_KU140015
+OTU13 4215 -0.0797233 4 Caudata,Salamandridae,Tylototriton,verrucosus 1.000 Tylototriton_verrucosus_JQ824188
+OTU14 1116,unk -0.329982 4 Anura,Dicroglossidae,Nanorana,unk 0.925 Nanorana_aenea_KR827954
+OTU16     0.707 Ratufa_indica_KM222437
+OTU17     0.707 Ratufa_indica_KM222437
+OTU18 8095 -0.132632 4 Artiodactyla,Bovidae,Ovis,aries 1.000 Ovis_aries_MF004243
+OTU19 4124 -0.0259521 4 Caudata,Salamandridae,Cynops,cyanurus 1.000 Cynops_cyanurus_EU880309
+OTU2 1132 -0.0175067 4 Anura,Dicroglossidae,Nanorana,unculuanus 1.000 Nanorana_unculuanus_DQ118491
+OTU20 3330 -0.162114 4 Anura,Ranidae,Rana,japonica 0.944 Rana_japonica_KR264033
+OTU21 10927 -0.803999 4 Rodentia,Muridae,Leopoldamys,edwardsi 0.978 Leopoldamys_edwardsi_KY464179
+OTU22 11172,unk -1.47679 4 Rodentia,Sciuridae,Dremomys,unk 0.846 Dremomys_pernyi_KP708711
+OTU23 8528 -0.0285121 4 Carnivora,Ursidae,Ursus,thibetanus 1.000 Ursus_thibetanus_EF681884
+OTU24     0.484 Python_regius_AB177878
+OTU25 10818,unk -0.120849 4 Rodentia,Hystricidae,Hystrix,unk 0.913 Hystrix_indica_JN714143
+OTU26 11064 -0.183747 4 Rodentia,Muridae,Rattus,nitidus 1.000 Rattus_nitidus_KX058347
+OTU27 8187 -0.726025 4 Artiodactyla,Cervidae,Muntiacus,muntjak 1.000 Muntiacus_muntjak_KY052092
+OTU28 10837 -0.955588 4 Rodentia,Muridae,Apodemus,draco 0.905 Apodemus_draco_KP694301
+OTU29 3421,unk -1.4986 4 Anura,Rhacophoridae,Kurixalus,unk 0.944 Kurixalus_carinensis_AY880503
+OTU3 7990 -0.059021 4 Artiodactyla,Bovidae,Bos,taurus 1.000 Bos_taurus_MF667931
+OTU30 1134 -0.349267 4 Anura,Dicroglossidae,Nanorana,yunnanensis 0.963 Nanorana_yunnanensis_KU140015
+OTU31 11163 -0.075301 4 Rodentia,Sciuridae,Callosciurus,erythraeus 0.978 Callosciurus_erythraeus_KM502568
+OTU32     0.469 Geocrinia_victoriana_DQ283296
+OTU33 11163 -0.0698577 4 Rodentia,Sciuridae,Callosciurus,erythraeus 0.978 Callosciurus_erythraeus_KM502568
+OTU34 11175 -0.249126 4 Rodentia,Sciuridae,Dremomys,rufigenis 0.956 Dremomys_rufigenis_AY227454
+OTU35     0.609 Euroscaptor_mizura_DQ630336
+OTU36 11000 -1.17971 4 Rodentia,Muridae,Niviventer,confucianus 0.889 Niviventer_confucianus_KJ152220
+OTU37     0.898 Xenophrys_lateralis_AY236800
+OTU38     0.622 Alouatta_seniculus_HQ644333
+OTU39 8299,unk -1.46709 4 Carnivora,Canidae,Vulpes,unk 0.868 Vulpes_ferrilata_KC538826
+OTU4 180 -0.0305608 4 Anura,Bombinatoridae,Bombina,maxima 1.000 Bombina_maxima_JX893182
+OTU40 8350 -0.862868 4 Carnivora,Felidae,Prionailurus,bengalensis 0.923 Prionailurus_bengalensis_KX857793
+OTU41 2535 -0.435875 4 Anura,Microhylidae,Calluella,yunnanensis 1.000 Calluella_yunnanensis_AB634684
+OTU42 8350 -0.442297 4 Carnivora,Felidae,Prionailurus,bengalensis 1.000 Prionailurus_bengalensis_KX857796
+OTU43 8544 -0.0091336 4 Carnivora,Viverridae,Paguma,larvata 1.000 Paguma_larvata_KT191130
+OTU44 1134 -0.349278 4 Anura,Dicroglossidae,Nanorana,yunnanensis 0.963 Nanorana_yunnanensis_KU140015
+OTU45 3552 -0.603198 4 Anura,Rhacophoridae,Theloderma,bicolor 1.000 Theloderma_bicolor_KY495633
+OTU46     0.518 Macaca_nigra_KY117592
+OTU47 10434 -0.0459036 4 Rodentia,Cricetidae,Eothenomys,miletus 0.957 Eothenomys_miletus_KX014874
+OTU48 11401 -0.0444485 4 Soricomorpha,Soricidae,Anourosorex,squamipes 1.000 Anourosorex_squamipes_GU981066
+OTU49 11001 -0.832698 4 Rodentia,Muridae,Niviventer,cremoriventer 0.955 Niviventer_cremoriventer_KY117572
+OTU5 331,unk -0.19712 4 Anura,Bufonidae,Bufo,unk 0.908 Bufo_tuberospinius_AF160788
+OTU50 8433 -0.11821 4 Carnivora,Mustelidae,Mustela,kathiah 1.000 Mustela_kathiah_HM106320
+OTU51 10818,unk -0.0971887 4 Rodentia,Hystricidae,Hystrix,unk 0.978 Hystrix_indica_JN714143
+OTU52 6310 -1.54184 4 Passeriformes,Leiothrichidae,Trochalopteron,erythrocephalum 0.900 Trochalopteron_erythrocephalum_AF484353
+OTU53     0.505 Eryx_miliaris_AF544818
+OTU54 11234 -0.204379 4 Rodentia,Sciuridae,Petaurista,philippensis 0.956 Petaurista_philippensis_JX572159
+OTU56 5353 -0.408147 4 Galliformes,Phasianidae,Arborophila,rufogularis 0.882 Arborophila_rufogularis_FJ752424
+OTU57     0.681 Trachypithecus_cristatus_KJ174503
+OTU58 8350 -1.01423 4 Carnivora,Felidae,Prionailurus,bengalensis 0.901 Prionailurus_bengalensis_KX857796
+OTU59 15414,unk -1.71515 4 Squamata,Viperidae,Trimeresurus,unk 0.859 Trimeresurus_fucatus_KX660235
+OTU6 8001 -0.0985083 4 Artiodactyla,Bovidae,Capra,hircus 1.000 Capra_hircus_MG603753
+OTU60     0.567 Hoolock_hoolock_KY250073
+OTU61     0.857 Xenophrys_lateralis_AY236800
+OTU62 11056,unk -1.08309 4 Rodentia,Muridae,Rattus,unk 0.867 Rattus_tiomanicus_KY117581
+OTU63     0.567 Cercopithecus_pogonias_AF435503
+OTU64     0.837 Xenophrys_major_KR828084
+OTU65 5888 -1.34129 4 Passeriformes,Cettiidae,Horornis,fortipes 0.900 Horornis_fortipes_DQ837518
+OTU68 1123 -0.0587856 4 Anura,Dicroglossidae,Nanorana,maculosa 1.000 Nanorana_maculosa_EU979835
+OTU69 8008 -0.153621 4 Artiodactyla,Bovidae,Capricornis,milneedwardsii 1.000 Capricornis_milneedwardsii_KU605670
+OTU7 331,unk -0.227454 4 Anura,Bufonidae,Bufo,unk 0.918 Bufo_aspinius_AF160787
+OTU71 8426 -0.081253 4 Carnivora,Mustelidae,Melogale,moschata 1.000 Melogale_moschata_HM106328
+OTU73 6515 -1.92646 4 Passeriformes,Muscicapidae,Cyornis,banyumas 0.880 Cyornis_banyumas_AF151425
+OTU75     0.896 Xenophrys_maosonensis_KY022213
+OTU76     0.875 Xenophrys_maosonensis_KY022213
+OTU78 6310 -0.905165 4 Passeriformes,Leiothrichidae,Trochalopteron,erythrocephalum 0.960 Trochalopteron_erythrocephalum_AF484353
+OTU79 6528 -2.15905 4 Passeriformes,Muscicapidae,Monticola,gularis 0.880 Monticola_gularis_KX506858
+OTU8 180 -0.0493131 4 Anura,Bombinatoridae,Bombina,maxima 0.981 Bombina_maxima_JX893181
+OTU81 3421,unk -1.38992 4 Anura,Rhacophoridae,Kurixalus,unk 0.925 Kurixalus_carinensis_AY880503
+OTU83 8172 -0.177688 4 Artiodactyla,Cervidae,Elaphodus,cephalophus 1.000 Elaphodus_cephalophus_DQ873526
+OTU85 8211 -0.169492 4 Artiodactyla,Cervidae,Rusa,unicolor 1.000 Rusa_unicolor_KY946815
+OTU88     0.505 Eryx_miliaris_AF544818
+OTU9 3493,unk -1.16089 4 Anura,Rhacophoridae,Rhacophorus,unk 0.981 Rhacophorus_dugritei_EF564544
+OTU91 7175,unk -1.44961 4 Passeriformes,Turdidae,Zoothera,unk 0.960 Zoothera_aurea_KT340629
+OTU93 3104 -0.424609 4 Anura,Ranidae,Amolops,mantzorum 1.000 Amolops_mantzorum_KJ546429
+OTU95 6671,unk -1.77462 4 Passeriformes,Pellorneidae,Alcippe,unk 0.920 Alcippe_morrisonia_AY167414
+OTU99 3251 -0.574596 4 Anura,Ranidae,Odorrana,andersonii 1.000 Odorrana_andersonii_JQ621937

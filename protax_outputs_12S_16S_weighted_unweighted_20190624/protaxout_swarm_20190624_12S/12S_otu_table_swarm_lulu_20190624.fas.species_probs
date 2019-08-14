@@ -1,0 +1,85 @@
+OTU1	1132	-0.825176	4	Anura,Dicroglossidae,Nanorana,unculuanus
+OTU10	332	-1.6278	4	Anura,Bufonidae,Bufo,aspinius
+OTU100	3111	-0.888625	4	Anura,Ranidae,Amolops,tuberodepressus
+OTU101	7109,unk	-2.69091	4	Passeriformes,Turdidae,Turdus,unk
+OTU102	10434	-0.897985	4	Rodentia,Cricetidae,Eothenomys,miletus
+OTU109	8433	-0.320677	4	Carnivora,Mustelidae,Mustela,kathiah
+OTU11	3332	-0.32661	4	Anura,Ranidae,Rana,johnsi
+OTU110	8322	-0.635229	4	Carnivora,Felidae,Felis,margarita
+OTU12	1120	-1.24169	4	Anura,Dicroglossidae,Nanorana,conaensis
+OTU121	6713,unk	-2.7451	4	Passeriformes,Phylloscopidae,Phylloscopus,unk
+OTU129	11069	-1.18153	4	Rodentia,Muridae,Rattus,tanezumi
+OTU13	6901	-2.82325	4	Passeriformes,Remizidae,Anthoscopus,musculus
+OTU14	1117	-1.09012	4	Anura,Dicroglossidae,Nanorana,aenea
+OTU15	3510	-1.25122	4	Anura,Rhacophoridae,Rhacophorus,dugritei
+OTU16	5351	-1.804	4	Galliformes,Phasianidae,Arborophila,javanica
+OTU162	8007	-1.71411	4	Artiodactyla,Bovidae,Capricornis,crispus
+OTU17	8003	-1.4147	4	Artiodactyla,Bovidae,Capra,nubiana
+OTU18	4218	-1.1201	4	Caudata,Salamandridae,Tylototriton,yangi
+OTU19	14556,unk	-2.76617	4	Squamata,Scincidae,Lerista,unk
+OTU2	179	-0.217158	4	Anura,Bombinatoridae,Bombina,lichuanensis
+OTU20	7178	-2.92387	4	Passeriformes,Turdidae,Zoothera,dixoni
+OTU21	5903	-2.60366	4	Passeriformes,Cisticolidae,Cisticola,cantans
+OTU22	8244	-0.888442	4	Artiodactyla,Suidae,Sus,cebifrons
+OTU23	3272	-1.64697	4	Anura,Ranidae,Odorrana,margaretae
+OTU24	6548	-1.68552	4	Passeriformes,Muscicapidae,Oenanthe,moesta
+OTU25	8096	-1.84693	4	Artiodactyla,Bovidae,Ovis,canadensis
+OTU26	5368	-1.11428	4	Galliformes,Phasianidae,Chrysolophus,amherstiae
+OTU27	2466,unk	-1.34684	4	Anura,Megophryidae,Xenophrys,unk
+OTU28	5486	-1.14208	4	Galliformes,Phasianidae,Tragopan,caboti
+OTU29	9750	-0.0682575	4	Erinaceomorpha,Erinaceidae,Neotetracus,sinensis
+OTU3	2447	-1.60995	4	Anura,Megophryidae,Oreolalax,jingdongensis
+OTU30			
+OTU31	6513	-0.890538	4	Passeriformes,Muscicapidae,Cyanoptila,cyanomelana
+OTU32			
+OTU33	6548	-0.545311	4	Passeriformes,Muscicapidae,Oenanthe,moesta
+OTU34	5466	-1.04874	4	Galliformes,Phasianidae,Syrmaticus,ellioti
+OTU35	11216	-2.36953	4	Rodentia,Sciuridae,Menetes,berdmorei
+OTU36	11058	-2.05513	4	Rodentia,Muridae,Rattus,baluensis
+OTU37	10839	-1.8711	4	Rodentia,Muridae,Apodemus,latronum
+OTU38	8528	-0.860194	4	Carnivora,Ursidae,Ursus,thibetanus
+OTU39	11174	-1.10591	4	Rodentia,Sciuridae,Dremomys,pernyi
+OTU4	179	-0.458478	4	Anura,Bombinatoridae,Bombina,lichuanensis
+OTU40			
+OTU41	10817	-0.367968	4	Rodentia,Hystricidae,Atherurus,macrourus
+OTU42	2443	-1.9726	4	Anura,Megophryidae,Megophrys,jinggangensis
+OTU43	11164	-0.491642	4	Rodentia,Sciuridae,Callosciurus,finlaysonii
+OTU44	11175	-1.05793	4	Rodentia,Sciuridae,Dremomys,rufigenis
+OTU45	11174	-0.144563	4	Rodentia,Sciuridae,Dremomys,pernyi
+OTU46			
+OTU47	8274	-0.391068	4	Carnivora,Canidae,Canis,anthus
+OTU48	6554	-1.86848	4	Passeriformes,Muscicapidae,Oenanthe,pleschanka
+OTU49	5369	-0.988479	4	Galliformes,Phasianidae,Chrysolophus,pictus
+OTU5	10198	-0.544678	4	Primates,Hominidae,Homo,sapiens
+OTU50	2422	-0.0180964	4	Anura,Megophryidae,Leptobrachium,ailaonicum
+OTU51	5071	-1.35489	4	Columbiformes,Columbidae,Ducula,melanochroa
+OTU52	6551	-1.82251	4	Passeriformes,Muscicapidae,Oenanthe,oenanthe
+OTU54	8187	-1.42682	4	Artiodactyla,Cervidae,Muntiacus,muntjak
+OTU55	4124	-0.89589	4	Caudata,Salamandridae,Cynops,cyanurus
+OTU57	6551	-1.42706	4	Passeriformes,Muscicapidae,Oenanthe,oenanthe
+OTU58			
+OTU6	2468	-0.766519	4	Anura,Megophryidae,Xenophrys,brachykolos
+OTU61	11401	-0.939511	4	Soricomorpha,Soricidae,Anourosorex,squamipes
+OTU62	10968,unk	-2.57307	4	Rodentia,Muridae,Mus,unk
+OTU63	8426	-0.627865	4	Carnivora,Mustelidae,Melogale,moschata
+OTU65	10820	-0.355013	4	Rodentia,Hystricidae,Hystrix,brachyurus
+OTU66			
+OTU67			
+OTU7	5364	-1.4237	4	Galliformes,Phasianidae,Catreus,wallichii
+OTU72			
+OTU73	2417	-0.492095	4	Anura,Megophryidae,Brachytarsophrys,carinense
+OTU74			
+OTU75	11058	-2.12198	4	Rodentia,Muridae,Rattus,baluensis
+OTU76	10928	-1.33287	4	Rodentia,Muridae,Leopoldamys,sabanus
+OTU77	8317	-0.392136	4	Carnivora,Felidae,Catopuma,temminckii
+OTU8	7983	-1.52787	4	Artiodactyla,Bovidae,Bison,bonasus
+OTU80	6551	-0.965971	4	Passeriformes,Muscicapidae,Oenanthe,oenanthe
+OTU81			
+OTU83	6672	-1.21806	4	Passeriformes,Pellorneidae,Alcippe,castaneceps
+OTU84	2535	-0.568056	4	Anura,Microhylidae,Calluella,yunnanensis
+OTU89	11000	-0.978264	4	Rodentia,Muridae,Niviventer,confucianus
+OTU9	2477	-0.328255	4	Anura,Megophryidae,Xenophrys,shapingensis
+OTU92	11058	-2.44973	4	Rodentia,Muridae,Rattus,baluensis
+OTU93	8351	-0.680157	4	Carnivora,Felidae,Prionailurus,iriomotensis
+OTU94			
+OTU96	11341	-0.00819779	4	Rodentia,Spalacidae,Rhizomys,pruinosus

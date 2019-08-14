@@ -1,0 +1,85 @@
+OTU1	1029	-0.00201592	2	Anura,Dicroglossidae
+OTU10	259	-0.00340887	2	Anura,Bufonidae
+OTU100	3087	-0.00217401	2	Anura,Ranidae
+OTU101	6950	-1.43772	2	Passeriformes,Sylviidae
+OTU102	10402	-0.0520892	2	Rodentia,Cricetidae
+OTU109	8390	-0.00281924	2	Carnivora,Mustelidae
+OTU11	3087	-0.00237927	2	Anura,Ranidae
+OTU110	8310	-0.00987363	2	Carnivora,Felidae
+OTU12	1029	-0.00215365	2	Anura,Dicroglossidae
+OTU121	6277	-0.942082	2	Passeriformes,Leiothrichidae
+OTU129	10826	-0.00104891	2	Rodentia,Muridae
+OTU13	6277	-0.753949	2	Passeriformes,Leiothrichidae
+OTU14	1029	-0.00828086	2	Anura,Dicroglossidae
+OTU15	3391	-0.00549152	2	Anura,Rhacophoridae
+OTU16	5339	-0.124158	2	Galliformes,Phasianidae
+OTU162	7964	-0.00398189	2	Artiodactyla,Bovidae
+OTU17	7964	-0.00195344	2	Artiodactyla,Bovidae
+OTU18	4117	-0.00283861	2	Caudata,Salamandridae
+OTU19	11687,unk	-0.779971	2	Squamata,unk
+OTU2	176	-0.0286368	2	Anura,Bombinatoridae
+OTU20	7074	-0.139463	2	Passeriformes,Turdidae
+OTU21	6712	-1.1734	2	Passeriformes,Phylloscopidae
+OTU22	8230	-0.00365849	2	Artiodactyla,Suidae
+OTU23	3087	-0.00237273	2	Anura,Ranidae
+OTU24	6506	-0.297152	2	Passeriformes,Muscicapidae
+OTU25	7964	-0.00374916	2	Artiodactyla,Bovidae
+OTU26	5339	-0.00210264	2	Galliformes,Phasianidae
+OTU27	2415	-0.127682	2	Anura,Megophryidae
+OTU28	5339	-0.00448927	2	Galliformes,Phasianidae
+OTU29	9726	-0.0117114	2	Erinaceomorpha,Erinaceidae
+OTU3	2415	-0.00223515	2	Anura,Megophryidae
+OTU30			
+OTU31	6506	-0.0213194	2	Passeriformes,Muscicapidae
+OTU32	11687,unk	-1.72882	2	Squamata,unk
+OTU33	6506	-0.0643164	2	Passeriformes,Muscicapidae
+OTU34	5339	-0.00434428	2	Galliformes,Phasianidae
+OTU35	10333,unk	-1.00198	2	Rodentia,unk
+OTU36	10826	-0.00128289	2	Rodentia,Muridae
+OTU37	10826	-0.0583253	2	Rodentia,Muridae
+OTU38	8512	-0.00520576	2	Carnivora,Ursidae
+OTU39	11150	-0.0153915	2	Rodentia,Sciuridae
+OTU4	176	-0.0263255	2	Anura,Bombinatoridae
+OTU40	5339	-1.22433	2	Galliformes,Phasianidae
+OTU41	10814	-0.00422342	2	Rodentia,Hystricidae
+OTU42	2415	-0.133534	2	Anura,Megophryidae
+OTU43	11150	-0.00539545	2	Rodentia,Sciuridae
+OTU44	11150	-0.00418768	2	Rodentia,Sciuridae
+OTU45	11150	-0.00113207	2	Rodentia,Sciuridae
+OTU46	7074	-0.0953809	2	Passeriformes,Turdidae
+OTU47	8271	-0.00447767	2	Carnivora,Canidae
+OTU48	6506	-0.0562634	2	Passeriformes,Muscicapidae
+OTU49	5339	-0.000908656	2	Galliformes,Phasianidae
+OTU5	10192	-0.124038	2	Primates,Hominidae
+OTU50	2415	-0.00173763	2	Anura,Megophryidae
+OTU51	4767	-0.715819	2	Charadriiformes,Charadriidae
+OTU52	6506	-0.146962	2	Passeriformes,Muscicapidae
+OTU54	8155	-0.00500985	2	Artiodactyla,Cervidae
+OTU55	4117	-0.00230297	2	Caudata,Salamandridae
+OTU57	6506	-0.0316926	2	Passeriformes,Muscicapidae
+OTU58			
+OTU6	2415	-0.0317727	2	Anura,Megophryidae
+OTU61	11399	-0.0013601	2	Soricomorpha,Soricidae
+OTU62	10826	-0.0992937	2	Rodentia,Muridae
+OTU63	8390	-0.00145339	2	Carnivora,Mustelidae
+OTU65	10814	-0.00450453	2	Rodentia,Hystricidae
+OTU66			
+OTU67			
+OTU7	5339	-0.00875141	2	Galliformes,Phasianidae
+OTU72			
+OTU73	2415	-0.111557	2	Anura,Megophryidae
+OTU74			
+OTU75	10826	-0.0112072	2	Rodentia,Muridae
+OTU76	10826	-0.00104442	2	Rodentia,Muridae
+OTU77	8310	-0.002778	2	Carnivora,Felidae
+OTU8	7964	-0.00281553	2	Artiodactyla,Bovidae
+OTU80	6506	-0.0545069	2	Passeriformes,Muscicapidae
+OTU81			
+OTU83	6670	-0.512881	2	Passeriformes,Pellorneidae
+OTU84	2504	-0.00265005	2	Anura,Microhylidae
+OTU89	10826	-0.00299159	2	Rodentia,Muridae
+OTU9	2415	-0.0251798	2	Anura,Megophryidae
+OTU92	10826	-0.0103025	2	Rodentia,Muridae
+OTU93	8310	-0.00520749	2	Carnivora,Felidae
+OTU94	1,unk	-0.942107	2	Anura,unk
+OTU96	11331	-0.00562359	2	Rodentia,Spalacidae

@@ -46,7 +46,5 @@ w_protaxmodels_ailaoshan/w_model_16S/train.w.lastsim
 
 # gitignore protax outputs
 old_protax_outputs/*
-w_protaxmodels/*
-protaxout*
-w_protaxout*
-protax_outputs_Christina_Lyngaard_201907/*
+# protaxout*
+# w_protaxout*
