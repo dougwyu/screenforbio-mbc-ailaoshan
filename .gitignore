@@ -36,17 +36,16 @@ Tetrapoda.missing_sp_to_delete.txt
 salleh_reformatted.fa
 Protax_upto_Module_two_outputs_20190718.zip
 
-# push unweighted protaxmodels, except for train.lastsim
-# protaxmodels/*
+# push unweighted protaxmodels (protaxmodels/), except for train.lastsim
 protaxmodels/model_12S/train.lastsim
 protaxmodels/model_16S/train.lastsim
 
-# push Ailaoshan-weighted protaxmodels, except for train.lastsim
-# w_protaxmodels_ailaoshan/*
+# push Ailaoshan-weighted protaxmodels (w_protaxmodels_ailaoshan/), except for train.lastsim
 w_protaxmodels_ailaoshan/w_model_12S/train.w.lastsim
 w_protaxmodels_ailaoshan/w_model_16S/train.w.lastsim
 
 # gitignore protax outputs
+old_protax_outputs/*
 w_protaxmodels/*
 protaxout*
 w_protaxout*

@@ -17,13 +17,15 @@ library(tidyverse)
 
 ```{r}
 # rm(list = ls())
+pathtoprotaxout <- "~/src/screenforbio-mbc-ailaoshan" # screenforbio folder
+setwd(pathtoprotaxout)
 ```
 
 ```{r combine weighted swarm_12S}
 pathtoprotaxout <- "~/src/screenforbio-mbc-ailaoshan" # screenforbio folder
-pathtoprotax2 <- "w_protaxout_Brazil_12S_20190727_12S" # 
-pathtoprotax_file <- "OTU_fasta_riaz." # fasta file name
-# setwd(pathtoprotaxout)
+pathtoprotax2 <- "w_protaxout_swarm_20190624_12S" # 
+pathtoprotax_file <- "12S_otu_table_swarm_lulu_20190624.fas." # fasta file name
+
 w_protaxout_swarm_12S_class <- read_tsv(file.path(pathtoprotaxout, pathtoprotax2, paste0(pathtoprotax_file, "w_class_probs")), col_names = c("queryID", "taxID", "log_prob", "level", "class")) %>% 
     mutate(prob_class = exp(log_prob)) %>% 
     select(queryID, class, prob_class)
@@ -53,8 +55,8 @@ w_protaxout_swarm_12S_all$protaxmod <- "weighted"
 
 ```{r combine unweighted swarm_12S}
 pathtoprotaxout <- "~/src/screenforbio-mbc-ailaoshan"
-pathtoprotax2 <- "protaxout_Lyngaard_20190722_12S"
-pathtoprotax_file <- "OTU_fasta_riaz.fasta."
+pathtoprotax2 <- "protaxout_swarm_20190624_12S"
+pathtoprotax_file <- "12S_otu_table_swarm_lulu_20190624.fas."
 # setwd(pathtoprotaxout)
 protaxout_swarm_12S_class <- read_tsv(file.path(pathtoprotaxout, pathtoprotax2, paste0(pathtoprotax_file, "class_probs")), col_names = c("queryID", "taxID", "log_prob", "level", "class")) %>% 
     mutate(prob_class = exp(log_prob)) %>% 
@@ -85,8 +87,8 @@ protaxout_swarm_12S_all$protaxmod <- "unweighted"
 
 ```{r combine weighted swarm_16S}
 pathtoprotaxout <- "~/src/screenforbio-mbc-ailaoshan/"
-pathtoprotax2 <- "w_protaxout_Brazil_16S_20190727_16S"
-pathtoprotax_file <- "16Smam_OTUs."
+pathtoprotax2 <- "w_protaxout_swarm_20190624_16S"
+pathtoprotax_file <- "16S_otu_table_swarm_lulu_20190624.fas."
 
 w_protaxout_swarm_16S_class <- read_tsv(file.path(pathtoprotaxout, pathtoprotax2, paste0(pathtoprotax_file, "w_class_probs")), col_names = c("queryID", "taxID", "log_prob", "level", "class")) %>% 
     mutate(prob_class = exp(log_prob)) %>% 
@@ -117,8 +119,8 @@ w_protaxout_swarm_16S_all$protaxmod <- "weighted"
 
 ```{r combine unweighted swarm_16S}
 pathtoprotaxout <- "~/src/screenforbio-mbc-ailaoshan"
-pathtoprotax2 <- "protaxout_Lyngaard_20190722_16S"
-pathtoprotax_file <- "16Smam_OTUs."
+pathtoprotax2 <- "protaxout_swarm_20190624_16S"
+pathtoprotax_file <- "16S_otu_table_swarm_lulu_20190624.fas."
 
 protaxout_swarm_16S_class <- read_tsv(file.path(pathtoprotaxout, pathtoprotax2, paste0(pathtoprotax_file, "class_probs")), col_names = c("queryID", "taxID", "log_prob", "level", "class")) %>% 
     mutate(prob_class = exp(log_prob)) %>% 
@@ -147,17 +149,30 @@ protaxout_swarm_16S_all$protaxmod <- "unweighted"
 ```
 
 ```{r}
-protaxout_swarm_16S_weighted_unweighted <- bind_rows(protaxout_swarm_16S_all, w_protaxout_swarm_16S_all) %>% select(protaxmod, everything()) %>% arrange(queryID)
-
 protaxout_swarm_12S_weighted_unweighted <- bind_rows(protaxout_swarm_12S_all, w_protaxout_swarm_12S_all) %>% select(protaxmod, everything()) %>% arrange(queryID)
+
+protaxout_swarm_16S_weighted_unweighted <- bind_rows(protaxout_swarm_16S_all, w_protaxout_swarm_16S_all) %>% select(protaxmod, everything()) %>% arrange(queryID)
 ```
 
+Create a folder for all the outputs
+```{bash}
+cd ~/src/screenforbio-mbc-ailaoshan
+ls
+mkdir protax_outputs_12S_16S_weighted_unweighted_20190624
+ls
+mv w_protaxout_swarm_20190624*/ protax_outputs_12S_16S_weighted_unweighted_20190624/
+mv protaxout_swarm_20190624*/ protax_outputs_12S_16S_weighted_unweighted_20190624/
+ls
+ls protax_outputs_12S_16S_weighted_unweighted_20190624
+```
 
 ```{r export tables}
 pathtoprotaxout <- "~/src/screenforbio-mbc-ailaoshan"
-pathtoprotax2 <- "w_protaxout_Brazil_16S_20190727_16S"
-write_tsv(w_protaxout_swarm_12S_all, file.path(pathtoprotaxout, paste0(pathtoprotax2),"w_protaxout_Brazil_12S_20190727_12S.tsv"))
-write_tsv(w_protaxout_swarm_16S_all, file.path(pathtoprotaxout, paste0(pathtoprotax2),"w_protaxout_Brazil_16S_20190727_16S.tsv"))
+pathtoprotax2 <- "protax_outputs_12S_16S_weighted_unweighted_20190624"
+
+write_tsv(protaxout_swarm_12S_weighted_unweighted, file.path(pathtoprotaxout, paste0(pathtoprotax2),"protaxout_swarm_12S_weighted_unweighted_20190624.tsv"))
+
+write_tsv(protaxout_swarm_16S_weighted_unweighted, file.path(pathtoprotaxout, paste0(pathtoprotax2),"protaxout_swarm_16S_weighted_unweighted_20190624.tsv"))
 ```
 
 
