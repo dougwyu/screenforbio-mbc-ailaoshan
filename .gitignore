@@ -5,14 +5,6 @@ MIDORI.raw*
 MIDORI_Tetrapoda.ITIS_mismatch_sp.txt
 MIDORI_*.amp_blast.noN.mafft_edit.fa
 .Rhistory
-# protaxmodels/*
-w_protaxmodels/*
-protaxout*
-w_protaxout*
-w_model_12S/
-w_model_12S_oldsplist/
-w_model_16S/
-w_model_16S_oldsplist/
 MIDORI_UNIQUE_1.2_srRNA_RDP.fasta
 MIDORI_UNIQUE_1.2_lrRNA_RDP.fasta
 MIDORI_srRNA.raw.fa
@@ -43,7 +35,16 @@ Tetrapoda.consensus_taxonomy.txt
 Tetrapoda.missing_sp_to_delete.txt
 salleh_reformatted.fa
 Protax_upto_Module_two_outputs_20190718.zip
-protax_outputs_Christina_Lyngaard_20190727/w_protaxmodels_Brazil/splist_Brazil_Lyngaard.csv
-protax_outputs_Christina_Lyngaard_20190727/w_protaxmodels_Tanzania/splist_Tanzania_Nielsen.txt
-protax_outputs_Christina_Lyngaard_201907/w_protaxmodels_Brazil/splist_Brazil_Lyngaard.csv
-protax_outputs_Christina_Lyngaard_201907/w_protaxmodels_Tanzania/splist_Tanzania_Nielsen.txt
+
+# protaxmodels/*
+protaxmodels/model_12S/train.lastsim
+protaxmodels/model_16S/train.lastsim
+
+# w_protaxmodels_ailaoshan/*
+w_protaxmodels_ailaoshan/w_model_12S/train.w.lastsim
+w_protaxmodels_ailaoshan/w_model_16S/train.w.lastsim
+
+w_protaxmodels/*
+protaxout*
+w_protaxout*
+protax_outputs_Christina_Lyngaard_201907/*
