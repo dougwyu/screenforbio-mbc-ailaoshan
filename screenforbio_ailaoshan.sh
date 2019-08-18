@@ -349,8 +349,7 @@ bash check_protax_training.sh w_model_16S Tetrapoda 16S ~/src/screenforbio-mbc-a
 # Plots can be found in w_model_16S/checktrain/weighted_Tetrapoda_16S_biasaccuracy.pdf
 
 
-# 5. Classify query sequences (reads or OTUs) with PROTAX
-#   - Classify OTUs with protax_classify_otus.sh or weighted_protax_classify_otus.sh as appropriate
+# 5. Classify query sequences (reads or OTUs) with with protax_classify_otus.sh or weighted_protax_classify_otus.sh as appropriate
 
 # these are the pathnames to the Ailaoshan OTU representative sequences
 OTUS12S_SWARM="/Users/Negorashi2011/Dropbox/Working_docs/Ji_Ailaoshan_leeches/2019/12S_otu_table_swarm_lulu_20190624.fas"
@@ -359,15 +358,13 @@ echo ${OTUS12S_SWARM}
 echo ${OTUS16S_SWARM}
 
 # unweighted 12S and 16S
-# move protax output files to a single folder if not yet done
-     # mkdir protaxmodels/
+     # first time: move protax output files to a single folder
      mkdir protaxmodels/
      mv model_12S protaxmodels/
      mv model_16S protaxmodels/
 # classify OTUS, unweighted
 bash protax_classify_otus.sh ${OTUS12S_SWARM} 12S protaxmodels ~/src/screenforbio-mbc-ailaoshan protaxout_swarm_20190624
 bash protax_classify_otus.sh ${OTUS16S_SWARM} 16S protaxmodels ~/src/screenforbio-mbc-ailaoshan protaxout_swarm_20190624
-# bash protax_classify_otus.sh ${OTUS12S_USEARCH} 12S protaxmodels ~/src/screenforbio-mbc-ailaoshan protaxout_usearch
      # usage: bash protax_classify_otus.sh otus locus protaxdir screenforbio outdir
      # where:
      # otus is the (path to) the OTU fasta to be processed (suffix should be ".fa")
@@ -376,8 +373,8 @@ bash protax_classify_otus.sh ${OTUS16S_SWARM} 16S protaxmodels ~/src/screenforbi
      # screenforbio is the path to the screenforbio-mbc directory (must contain subdirectory protaxscripts)
      # outdir is the name to give an output directory (inside current) (no slash at end)
 
-# weighted
-# move weighted protax output files to a single folder where the weighting is for ailaoshan, if not done
+# weighted 12S and 16S
+     # first time: move weighted protax output files to a single folder where the weighting is for ailaoshan
      mkdir w_protaxmodels_ailaoshan/
      mv w_model_12S w_protaxmodels_ailaoshan/
      mv w_model_16S w_protaxmodels_ailaoshan/
@@ -407,31 +404,31 @@ bash weighted_protax_classify_otus.sh ${OTUS16S_SWARM} 16S w_protaxmodels_ailaos
 # queryID taxID   log(probability) level   taxon                                        bestHit_similarity      bestHit
 # OTU1    816     -1.25544         4       Anura,Dicroglossidae,Nanorana,taihangnica    0.979 Nanorana_taihangnica_KJ569109
 
-# 5.1 Use combine_protax_output_tables.Rmd to combine the protax output files. The script is written to process w_protaxout_swarm_12S, w_protaxout_swarm_16S, w_protaxout_usearch_12S
+# 5.1 Use combine_protax_output_tables.Rmd to combine protax output files.
 
 
 
 #### END ####
 
 
-# 6. Code to assign taxonomies to a new sets of OTUs
+# 6. Code to assign taxonomies to other sets of OTUs
 cd ~/src/screenforbio-mbc-ailaoshan/
 . ~/.linuxify; which sed # should show /usr/local/opt/gnu-sed/libexec/gnubin/sed
 
-# Cai_443_Ponds dataset, 12S, unweighted
+# Cai_443_Ponds dataset, 12S OTUs, unweighted
 OTUS12S_SWARM="/Users/Negorashi2011/Dropbox/Working_docs/Cai_443_Ponds/OTUs/table_500ponds2_12sv5_97.fas.blast.fas"
 echo ${OTUS12S_SWARM}; head ${OTUS12S_SWARM}
 bash protax_classify_otus.sh ${OTUS12S_SWARM} 12S protaxmodels ~/src/screenforbio-mbc-ailaoshan protaxout_swarm_20190704
 
-# Christina Lyngaard and Martin Nielsen OTUs, unweighted
+# Christina Lyngaard and Martin Nielsen dataset, 12S and 16S OTUs, unweighted
 OTUS12S="/Users/Negorashi2011/Dropbox/Working_docs/Lyngaard_Metabarcoding_vertebrates/OTU_fasta_riaz.fasta"
 OTUs16S="/Users/Negorashi2011/Dropbox/Working_docs/Lyngaard_Metabarcoding_vertebrates/16Smam_OTUs.fa"
 echo ${OTUS12S}; head ${OTUS12S}
-echo ${OTUS16S}; #head ${OTUS16S}
+echo ${OTUS16S}; head ${OTUS16S}
 bash protax_classify_otus.sh ${OTUS12S} 12S protaxmodels ~/src/screenforbio-mbc-ailaoshan protaxout_Lyngaard_20190722
 bash protax_classify_otus.sh ${OTUS16S} 16S protaxmodels ~/src/screenforbio-mbc-ailaoshan protaxout_Lyngaard_20190722
 
-# Christina Lyngaard and Martin Nielsen OTUs, weighted
+# Christina Lyngaard and Martin Nielsen dataset, 12S and 16S OTUs, weighted
 # weighted by Brazil species list:  splist (birds, herps, mammals)
 cd ~/src/screenforbio-mbc-ailaoshan/
 . ~/.linuxify; which sed # should show /usr/local/opt/gnu-sed/libexec/gnubin/sed
@@ -520,5 +517,3 @@ bash weighted_protax_classify_otus.sh ${OTUS12S} 12S w_protaxmodels_Brazil ~/src
 bash weighted_protax_classify_otus.sh ${OTUS16S} 16S w_protaxmodels_Brazil ~/src/screenforbio-mbc-ailaoshan/ w_protaxout_Brazil_16S_20190727
 bash weighted_protax_classify_otus.sh ${OTUS12S} 12S w_protaxmodels_Tanzania ~/src/screenforbio-mbc-ailaoshan/ w_protaxout_Tanzania_12S_20190727
 bash weighted_protax_classify_otus.sh ${OTUS16S} 16S w_protaxmodels_Tanzania ~/src/screenforbio-mbc-ailaoshan/ w_protaxout_Tanzania_16S_20190727
-
-# 5.1 Use combine_protax_output_tables.Rmd to combine the protax output files. The script is written to process w_protaxout_swarm_12S, w_protaxout_swarm_16S, w_protaxout_usearch_12S
