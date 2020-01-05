@@ -351,7 +351,7 @@ bash check_protax_training.sh w_model_16S Tetrapoda 16S ~/src/screenforbio-mbc-a
 
 # 5. Classify query sequences (reads or OTUs) with with protax_classify_otus.sh or weighted_protax_classify_otus.sh as appropriate
 
-# these are the pathnames to the Ailaoshan OTU representative sequences
+# these are the pathnames to the Ailaoshan OTU representative sequences. These are also available as Supplementary Files S3, S4.
 OTUS12S_SWARM="/Users/Negorashi2011/Dropbox/Working_docs/Ji_Ailaoshan_leeches/2019/12S_otu_table_swarm_lulu_20190624.fas"
 OTUS16S_SWARM="/Users/Negorashi2011/Dropbox/Working_docs/Ji_Ailaoshan_leeches/2019/16S_otu_table_swarm_lulu_20190624.fas"
 echo ${OTUS12S_SWARM}
