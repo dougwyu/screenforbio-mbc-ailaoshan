@@ -46,3 +46,7 @@ w_protaxmodels_ailaoshan/w_model_16S/train.w.lastsim
 
 # gitignore old protax outputs
 protax_outputs_old/*
+protaxmodels/model_12S/train.lastsim.zip
+protaxmodels/model_16S/train.lastsim.zip
+w_protaxmodels_ailaoshan/w_model_12S/train.w.lastsim.zip
+w_protaxmodels_ailaoshan/w_model_16S/train.w.lastsim.zip
